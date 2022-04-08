@@ -1,0 +1,60 @@
+body {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #border #phone {
+  width: 400px;
+  height: 750px;
+  border-radius: 47px;
+  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border: 10px solid black;
+  outline: 5px solid #bebebe;
+  background-color: black;
+}
+body #border #phone #topPhone {
+  width: 363px;
+  height: 40px;
+  border-radius: 47px;
+  position: absolute;
+}
+body #border #phone #screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-image: url("../ressources/phone/iphone-13-ios.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+body #border #phone #screen #topBar {
+  background-color: black;
+  width: 50%;
+  height: 30px;
+  border-radius: 0 0 40px 40px;
+}
+body #border #phone #screen #content {
+  flex: 11;
+  border: 2px solid aquamarine;
+  width: 100%;
+}
+body #border #phone #screen #botBar {
+  flex: 1;
+  border: 2px solid bisque;
+  width: 100%;
+  border-radius: 0 0 40px 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
